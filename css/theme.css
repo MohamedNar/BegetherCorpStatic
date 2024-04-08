@@ -1,0 +1,1017 @@
+body
+{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro Regular",Helvetica,Arial,sans-serif;
+}
+.pull-left
+{
+    float: left;
+}
+.pull-right
+{
+    float: right;
+}
+.clearfix
+{
+    clear: both;
+}
+.for-mob,
+.for-taplet
+{
+    display: none;
+}
+.begether-container
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 67px;
+}
+.top
+{
+    background: url("../images/tob-bg.jpg") no-repeat 100% 0 #eeeeee;
+    overflow: hidden;
+}
+.middle
+{
+    background: url("../images/middle-bg.png") no-repeat 0 0 #473b46;
+    overflow: hidden;
+}
+.bottom
+{
+    background: url("../images/bottom-bg.png") no-repeat 100% 100% #eeeeee;
+    overflow: hidden;
+}
+.row
+{
+    margin: 0 100px;
+    overflow: hidden;
+}
+.header
+{
+    margin-top: 43px;
+}
+.logo
+{
+    background: url("../images/begether_logo.png") no-repeat 0 0 transparent;
+    width: 123px;
+    height: 30px;
+}
+.menu
+{
+    margin-top: 8px;
+    margin-right: 190px;
+}
+.menu ul
+{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li
+{
+    list-style: none;
+}
+.menu ul li a
+{
+    color: #0a4956;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    margin-left: 20px;
+    display: block;
+}
+.menu ul li a:hover,
+.menu ul li a.selected
+{
+    border-bottom: 2px solid #f87200;
+}
+.products-intro
+{
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+}
+.intro
+{
+    width: 60%;
+}
+.head
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.intro .title
+{
+    color: #f47f00;
+    font-size: 38px;
+}
+.intro p
+{
+    color: #0a4a56;
+    font-size: 25px;
+}
+.products-arrow
+{
+    color: #0a4a56;
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+.arrow
+{
+    background: url("../images/down_arrow.png") no-repeat 0 0 transparent;
+    width: 29px;
+    height: 17px;
+    display: block;
+    margin: 10px auto;
+}
+.examples-img
+{
+    background: url("../images/left_mob_chaino.png") no-repeat 0 0 transparent;
+    width: 345px;
+    height: 394px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+.chaino-app
+{
+    background: url("../images/chaino_mob.png") no-repeat 0 0 transparent;
+    width: 410px;
+    height: 488px;
+    margin: 23px 0;
+}
+.chaino-app-data-container
+{
+    margin-left: 425px;
+    margin-top: 70px;
+}
+.chaino-app-data
+{
+    text-align: center;
+    margin: 0 85px;;
+    overflow: hidden;
+}
+.chaino-logo
+{
+    background: url("../images/chaino_logo.png") no-repeat 0 0 transparent;
+    width: 272px;
+    height: 81px;
+    margin: auto;
+}
+.chaino-app-data p, .zingo-app-data p
+{
+    color: #ffffff;
+    font-size: 25px;
+}
+.ios-store
+{
+    background: url("../images/app_store.png") no-repeat 0 0 transparent;
+    width: 195px;
+    height: 68px;
+}
+.play-store
+{
+    background: url("../images/play_store.png") no-repeat 0 0 transparent;
+    width: 195px;
+    height: 68px;
+}
+.chaino-app-data a,
+.zingo-app-data a
+{
+    color: #f3a000;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 1em;
+    display: block;
+}
+.zingo-app
+{
+    background: url("../images/zingoo_mob.png") no-repeat 0 0 transparent;
+    width: 425px;
+    height: 457px;
+    margin: 55px 0 46px;
+    background-size: 100%;
+}
+.zingo-app-data-container
+{
+    margin-right: 425px;
+    margin-top: 45px;
+}
+.zingo-app-data
+{
+    text-align: center;
+    margin: 0 85px;
+    overflow: hidden;
+}
+.zingo-logo
+{
+    background: url("../images/zingoo_logo.png") no-repeat 0 0 transparent;
+    width: 116px;
+    height: 155px;
+    margin: auto;
+}
+.stories
+{
+    background: url("../images/stories.png") no-repeat 0 0 transparent;
+    width: 378px;
+    height: 38px;
+    margin: 25px auto 0;
+}
+.zingo-app-data p
+{
+    color: #232c3b;
+    margin: 0.4em 1em 1em;
+}
+.zingo-app-data a
+{
+    color: #ff8833;
+    margin-top: 30px;
+}
+.footer
+{
+    color: #ff8833;
+    font-size: 17px;
+    padding: 24px 10px;
+    text-align: center;
+    background-color: #3d3d3d;
+    text-shadow: 0 0 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.top.inner,
+.top.careers,
+.top.contact
+{
+    background-image: none;
+}
+.top.inner .row,
+.top.careers .row,
+.top.contact .row
+{
+    margin-bottom: 60px;
+}
+.middle.inner
+{
+    background-image: none;
+    background-color: #f87200;
+}
+.bottom.inner
+{
+    background-image: none;
+}
+.comp-bg
+{
+    background: url("../images/middle-inner.jpg") no-repeat 100% 100% transparent;
+    padding: 30px 165px 30px 0;
+}
+.comp-bg p
+{
+   color: #ffffff;
+   font-size: 23px;
+   font-weight: bold;
+}
+.desc
+{
+    color: #0a4a56;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 33px 0 100px;
+}
+.middle.careers
+{
+    background: url("../images/middle-careers.jpg") no-repeat 0 0 transparent;
+    background-size: cover;
+}
+.careers-desc
+{
+    padding: 30px 0 0;
+}
+.careers-desc p
+{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 37px;
+}
+.careers .title
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.offers
+{
+    overflow: hidden;
+    margin: 25px 0;
+}
+.offer
+{
+    width: 25%;
+    float: left;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.competitive-salaries
+{
+    background: url("../images/competitive-salaries.png") 50% 50% no-repeat transparent;
+    display: block;
+    width: 112px;
+    height: 102px;
+    margin: auto;
+}
+.stock-options
+{
+    background: url("../images/stock-options.png") 50% 50% no-repeat transparent;
+    display: block;
+    width: 94px;
+    height: 102px;
+    margin: auto;
+}
+.fun
+{
+    background: url("../images/fun.png") 50% 50% no-repeat transparent;
+    display: block;
+    width: 114px;
+    height: 102px;
+    margin: auto;
+}
+.world-changing-products
+{
+    background: url("../images/world-changing-products.png") 50% 50% no-repeat transparent;
+    display: block;
+    width: 48px;
+    height: 102px;
+    margin: auto;
+}
+.text
+{
+    padding-top: 10px;
+    display: block;
+}
+.to-apply
+{
+    margin: 30px 0 80px;
+    width: 840px;
+}
+.to-apply .title
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: #0a4a56;
+    margin-bottom: 20px;
+}
+input, select
+{
+    padding: 16px 10px;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    color: #778f95;
+    font-size: 20px;
+    border: 1px solid #bababa;
+    background: #ffffff;
+}
+input[type="file"]
+{
+    padding: 14px 10px;
+}
+.max-size
+{
+    color: #898989;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.max-size span
+{
+    margin-top: -10px;
+}
+.custom-file-input::-webkit-file-upload-button
+{
+  visibility: hidden;
+}
+.custom-file-input::before
+{
+    content: 'Upload CV';
+    background: #626262;
+    border-radius: 5px;
+    padding: 8px 10px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+.custom-file-input:focus
+{
+  outline: none;
+}
+.apply-action
+{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.btn
+{
+    background-color: #f47f00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+}
+.email-to
+{
+    margin-right: 96px;
+    text-align: center;
+    color: #898989;
+    font-size: 14px;
+    padding-top: 30px;
+}
+.email-to a
+{
+    color: #f2aa76;
+    text-decoration: none;
+    text-shadow: 0 0 0px;
+}
+.middle.contact
+{
+    background-image: none;
+    background-color: #ffffff;
+}
+.from-you
+{
+    width: 990px;
+    margin: 30px 0 40px;
+}
+.from-you .head
+{
+    color: #f47f00;
+}
+.input-short
+{
+    width: 320px;
+    margin-right: 15px;
+}
+textarea
+{
+    width: 100%;
+    resize: none;
+    height: 200px;
+    color: #778f95;
+    font-size: 20px;
+    border: 1px solid #bababa;
+    padding: 10px;
+}
+.from-you .email-to
+{
+    padding-top: 0;
+    text-align: left;
+}
+.no-margin-right
+{
+    margin-right: 0;
+}
+/* From old site */
+label.error{
+    display: none !important;
+    
+}
+input.error , select.error{
+    background-color: #fbb !important;
+    border-color: #ff0000 !important;
+}
+
+.formError{
+clear:both;
+    padding: 0px;
+    /*background-color: white;*/
+    color: red;
+    font-size: small;
+    font-weight:bold;
+}
+.AgilePro-link{
+    float: right;
+    margin-right: 80px;
+}
+@media (max-width: 1210px)
+{
+    .chaino-app-data,
+    .zingo-app-data
+    {
+        margin: 0 30px;
+    }
+    .from-you
+    {
+        width: 807px;
+    }
+    .input-short
+    {
+        width: 259px;
+    }
+}
+@media (max-width: 1210px) and (min-width: 901px)
+{
+    .offer
+    {
+        width: 20%;
+    }
+    .offer.wcp
+    {
+        width: 31%;
+    }
+    .offer.ffe
+    {
+        width: 29%;
+    }
+}
+@media (max-width: 1100px)
+{
+    .chaino-app-data,
+    .zingo-app-data
+    {
+        margin: 0 0px;
+    }
+}
+@media (max-width: 1040px)
+{
+    .to-apply
+    {
+        width: 680px;
+    }
+    input, select
+    {
+        width: 320px;
+    }
+}
+@media (max-width: 1024px)
+{
+    .for-taplet
+    {
+        display: block;
+    }
+    .row
+    {
+        margin: 0 25px;
+    }
+    .open-menu
+    {
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 44px;
+        margin-top: -16px;
+        margin-bottom: -12px;
+    }
+    .menu
+    {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #393e47;
+        overflow-x: hidden;
+        transition: 0.5s;
+        margin: 0;
+        float: none;
+    }
+    .menu ul
+    {
+        margin-top: 40px;
+    }
+    .menu ul li
+    {
+        list-style: none;
+        float: none;
+    }
+    .menu ul li a
+    {
+        margin: 10px 30px;
+        display: inline-block;
+        transition: 0.3s;
+        color: #ffffff;
+        font-size: 29px;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+    .menu .closebtn
+    {
+        position: absolute;
+        top: -5px;
+        right: 12px;
+        font-size: 60px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .products-intro
+    {
+        margin-top: 75px;
+    }
+    .intro
+    {
+        width: 60%;
+    }
+    .intro .title
+    {
+        font-size: 26px;
+    }
+    .intro p
+    {
+        font-size: 22px;
+    }
+    .examples-img
+    {
+        width: 270px;
+        height: 308px;
+    }
+    .chaino-app
+    {
+        background-size: 100%;
+        width: 350px;
+        height: 416px;
+    }
+    .chaino-app-data
+    {
+        margin-left: 15px;
+    }
+    .zingo-app-data
+    {
+        margin-right: 15px;
+    }
+    .zingo-app
+    {
+        background-size: 100%;
+        width: 335px;
+        height: 360px;
+    }
+    .chaino-app-data p,
+    .zingo-app-data p
+    {
+        font-size: 21px;
+    }
+    .play-store,
+    .ios-store
+    {
+        float: none;
+        margin: auto;
+    }
+    .from-you
+    {
+        width: 690px;
+    }
+    .input-short
+    {
+        width: 220px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 769px)
+{
+    .top.inner .open-menu,
+    .top.careers .open-menu,
+    .top.contact .open-menu
+    {
+        color: #f47f00;
+    }
+}
+@media (max-width: 900px)
+{
+    .offer
+    {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 768px)
+{
+    .for-web
+    {
+        display: none;
+    }
+    .for-mob
+    {
+        display: block;
+    }
+   .begether-container
+    {
+        width: 100%;
+    }
+    .row
+    {
+        margin: 0;
+    }
+    .top
+    {
+        background-image: url("../images/top-mob_bg.jpg");
+        background-size: cover;
+        background-position: 50% 70px;
+    }
+    .middle
+    {
+        background: url("../images/mob-middle-bg.png") no-repeat 0 0 #473b46;
+    }
+    .bottom
+    {
+        background: url("../images/mob-bottom-bg.png") no-repeat 100% 100% #eeeeee;
+    }
+    .header
+    {
+        background-color: #f47f00;
+        margin-top: 0;
+        overflow: hidden;
+        padding: 20px 30px;
+    }
+    .logo
+    {
+        -webkit-filter: brightness(0) invert(1);
+    }
+    .open-menu
+    {
+        margin-top: -10px;
+    }
+    .products-intro
+    {
+        margin: 30px 30px;
+        overflow: hidden;
+        position: relative;
+        min-height: 970px;
+    }
+    .intro
+    {
+        width: auto;     
+    }
+    .intro .title
+    {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .intro p
+    {
+        color: #fff;
+        font-size: 26px;
+        margin: 0;
+        position: absolute;
+        bottom: 100px;
+    }
+    .products-arrow.for-mob
+    {
+        color: #ffffff;
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .examples-img
+    {
+        display: none;
+    }
+    .chaino-app,
+    .zingo-app
+    {
+        margin: 23px auto 0;
+        float: none;
+    }
+    .chaino-app-data-container,
+    .zingo-app-data-container
+    {
+        margin: 0;
+    }
+    .chaino-app-data
+    {
+        margin: 0 auto 68px;
+        float: none;
+        overflow: hidden;
+    }
+    .zingo-app-data
+    {
+        margin: 68px auto;
+        float: none;
+    }
+    .top.inner .row
+    {
+        margin-bottom: 2px;
+    }
+    .top.careers .row,
+    .top.contact .row
+    {
+        margin-bottom: 0;
+    }
+    .middle.inner .row,
+    .middle.careers .row,
+    .middle.contact .row,
+    .bottom.inner .row
+    {
+        margin: 0 25px;
+    }
+    .comp-bg
+    {
+        padding: 30px 0;
+    }
+    .desc
+    {
+        margin: 30px 0;
+    }
+    .apply-action
+    {
+        margin-right: 0;
+    }
+    .to-apply
+    {
+        width: 100%;
+    }
+    input, select
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+    .max-size
+    {
+        margin-right: 0;
+    }
+    .max-size span
+    {
+        float: left;
+    }
+    .btn
+    {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        float: none;
+    }
+    .email-to
+    {
+        margin-right: 0;
+    }
+    .from-you
+    {
+        width: 100%;
+    }
+    .input-short
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+    .from-you .email-to
+    {
+        padding-top: 30px;
+    }
+    .AgilePro-link{
+        float: none;
+        margin-right: 0px;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 580px)
+{
+    .offer
+    {
+        font-size: 21px;
+    }
+}
+@media (max-width: 480px)
+{
+    .middle
+    {
+        background: url("../images/mob-middle-bg.png") no-repeat -70px 0 #473b46;
+    }
+    .bottom
+    {
+        background: url("../images/mob-bottom-bg.png") no-repeat 110% 100% #eeeeee;
+    }
+    .products-intro
+    {
+        min-height: 535px;
+    }
+    .intro .head,
+    .head
+    {
+        font-size: 26px;
+    }
+    .intro .title,
+    .intro p
+    {
+        font-size: 19px;
+    }
+    .intro p
+    {
+        bottom: 5px;
+    }
+    .chaino-logo
+    {
+        background-size: 100%;
+        height: 70px;
+        width: 233px;
+    }
+    .chaino-app
+    {
+        background-size: 100%;
+        width: 280px;
+        height: 330px;
+    }
+    .chaino-app-data,
+    .zingo-app-data
+    {
+        width: auto;
+    }
+    .chaino-app-data p,
+    .zingo-app-data p
+    {
+        font-size: 23px;
+        margin: 1em 1.5em;
+    }
+    .stories
+    {
+        background-size: 100%;
+        width: 300px;
+        height: 30px;
+    }
+    .zingo-app
+    {
+        background-size: 100%;
+        width: 300px;
+        height: 330px;
+    }
+    .footer
+    {
+        font-size: 16px;
+    }
+    .comp-bg .head
+    {
+        font-size: 23px;
+    }
+    .comp-bg p
+    {
+        font-size: 18px;
+        margin: 0;
+    }
+    .desc
+    {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    input, select,
+    .custom-file-input::before
+    {
+        font-size: 17px;
+    }
+    .max-size
+    {
+        font-size: 12px;
+    }
+    .to-apply .title
+    {
+        font-size: 20px;
+    }
+    .careers-desc
+    {
+        padding-top: 15px;
+    }
+    .careers-desc .head
+    {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .careers-desc p
+    {
+        font-size: 21px;
+        line-height: 27px;
+        font-weight: normal;
+    }
+    .careers .title
+    {
+        font-size: 23px;
+    }
+}
+@media (max-width: 445px)
+{ 
+    .offer
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-height: 450px)
+{
+  .sidenav
+  {
+      padding-top: 15px;
+  }
+  .sidenav a
+  {
+      font-size: 18px;
+  }
+}
